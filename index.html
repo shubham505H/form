@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .container{
+        height: 500px;
+        width: 500px;
+    }
+</style>
+<body>
+    <div  class="container  jumbotron " >
+        <h2 align="center">Registration form </h2><br><br>
+        <form class="form-group">
+           <div style="display:flex ; gap: 110px;"> <label for="First Name">First Name </label> <label for="Last Name">Last Name</label></div>
+            <input type="text" id="First Name" >
+            
+            <input type="text" id="Last Name"><br>
+            <div style="display:flex ; gap: 125px;">  <label for="Brithday">Brithday</label> <label>Gender</label>  </div>
+           
+            <input type="date" style="width: 180px;" id="Brithday">
+            
+            <label for="male" style="margin-left:3px ;">Male</label>
+            <input type="radio" id="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female"><br>
+            <div style="display:flex ; gap: 145px;" ><label for="Email">Email</label>  <label for="Phone number">Phone number</label></div>
+            
+            <input type="email" id="Email">
+           
+            <input type="text" id="Phone number"><br>
+            <label for="ww">subject</label><br>
+           <select  class="form-control" id="ww" >
+            <option aria-disabled="true">choose option</option>
+            <option>hindi</option>
+            <option>English</option>
+            <option>Rajsthani</option>
+            <option>Marwadi</option>
+            <option>Gali gloch</option>
+           </select><br>
+          <button type="button" class="btn btn-primary">Submit</button>
+          
+            
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
